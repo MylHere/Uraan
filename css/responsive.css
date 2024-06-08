@@ -1,6 +1,6 @@
-@media(max-width: 991px){
+@media (max-width: 991px) {
     .home-sec .home-content {
-        padding: 70px 0;
+        padding: 40px 0;
     }
     .cont-sec p,
     .cont-sec .social {
@@ -8,46 +8,68 @@
     }
     .home-sec .img-sec img {
         margin-bottom: 50px;
-    }   
+    }
+    .home-sec .video-sec video {
+        margin-bottom: 50px;
+        width: 100%; /* Make video full width */
+    }
     .about-sec .about-img {
         display: flex;
         justify-content: center;
     }
-    .about-sec .about-img img{
+    .about-sec .about-img img {
         margin-top: 50px;
+        width: 80%; /* Make image responsive */
     }
-    .contact-sec .col-lg-12{
+    .contact-sec .col-lg-12 {
         padding: 0;
     }
     .contact-form textarea.form-control {
-        width: 96%;
-        margin-left: 15px;
+        width: 94%; /* Adjust width for better fit */
+        margin-left: 3%; /* Center align */
     }
     .gallery-sec .pop-image img {
         top: 60%;
         left: 50%;
-        width: 500px;
+        width: 100%; /* Make image responsive */
+        transform: translate(-50%, -50%);
     }
 }
-@media(max-width: 611px){
-    .about-sec .about-img img{
-        width: 300px;
+
+@media (max-width: 611px) {
+    .about-sec .about-img img {
+        width: 80%; /* Adjust width for smaller screens */
     }
     .contact-section .contact-form textarea.form-control {
-        width: 94%;
+        width: 92%; /* Further adjust width */
+        margin-left: 4%; /* Center align */
     }
 }
 
+@media (max-width: 551px) {
+    header .navbar-brand {
+        font-size: 18px;
+    }
+    .gallery-sec .pop-image img {
+        top: 50%;
+        width: 80%; /* Make image responsive */
+        transform: translate(-50%, -50%);
+    }
+}
 
-@media(max-width: 551px){
-
-header .navbar-brand{
-    font-size: 18px;
-}
-.gallery-sec .pop-image img {
-    top: 50%;
-}
-.gallery-sec .pop-image img {
-    width: 300px;
-}
+/* Additional CSS for better mobile experience */
+@media (max-width: 480px) {
+    .heading h2 {
+        font-size: 24px; /* Adjust heading font size */
+    }
+    .donation-text, .donation-details {
+        font-size: 16px; /* Adjust font size for donation text */
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 14px; /* Adjust input font size */
+    }
+    .btn1 {
+        font-size: 14px; /* Adjust button font size */
+        padding: 10px 20px; /* Adjust button padding */
+    }
 }

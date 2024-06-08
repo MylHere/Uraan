@@ -133,9 +133,18 @@ nav{
     display: flex;
     justify-content: center;
 }
+.home-sec .video-sec{
+    display: flex;
+    /* justify-content: center; */
+}
 
 .home-sec .img-sec img{
     width: 400px;
+}
+.home-sec .video-sec video{
+    margin-top: 30px;
+    width: 600px;
+    
 }
 
 .home-sec .home-content{
@@ -290,6 +299,8 @@ nav{
 
 
 
+
+
 /* Footer */
 footer{
     background-color: #e69b00;
@@ -343,17 +354,50 @@ footer .social a img{
     background: #e69b00;
 }
 
+#online{
+    height: 50px;
+    width: 100%;
+    padding: 150px 0;
+    /* border: none; */
+    /* outline: none; */
+    /* border: 1px solid rgb(206, 212, 218); */
+    /* border-radius: 5px; */
+    /* color: rgb(73, 80, 87); */
+    font-weight: 400;
+}
 
 
 #donation{
     height: 50px;
     width: 100%;
-    padding: 0px 5px;
-    border: none;
-    outline: none;
-    border: 1px solid rgb(206, 212, 218);
-    border-radius: 5px;
-    color: rgb(73, 80, 87);
+    padding: 150px 0;
+    /* border: none; */
+    /* outline: none; */
+    /* border: 1px solid rgb(206, 212, 218); */
+    /* border-radius: 5px; */
+    /* color: rgb(73, 80, 87); */
     font-weight: 400;
+}
+#donation .donation-text {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 2px; 
+    margin-left: 10px;
+}
+
+#donation .donation-logo {
+    max-width: 200px; 
+    height: auto; 
+    
+}
+
+#donation .donation-details .account-number {
+    color: #e69b00; 
+    font-weight: bold; 
+}
+#donation .donation-details {
+    font-size: 18px; 
+    color: #333; 
+    margin-left: 10px;
 }
 

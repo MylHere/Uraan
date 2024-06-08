@@ -8,3 +8,5 @@ document.querySelectorAll('.image-container img').forEach(image => {
 document.querySelector('.pop-image span').onclick = () => {
     document.querySelector('.pop-image').style.display = 'none';
 }
+
+
